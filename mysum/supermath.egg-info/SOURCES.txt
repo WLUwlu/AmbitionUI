@@ -1,0 +1,9 @@
+README.md
+setup.py
+supermath/__init__.py
+supermath/demo01.py
+supermath/demo02.py
+supermath.egg-info/PKG-INFO
+supermath.egg-info/SOURCES.txt
+supermath.egg-info/dependency_links.txt
+supermath.egg-info/top_level.txt
