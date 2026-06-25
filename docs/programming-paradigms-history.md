@@ -128,7 +128,7 @@ Smalltalk envisioned a uniform object runtime; C++ envisioned zero-overhead abst
 
 Functional programming treats computation as evaluation of expressions built from functions, emphasizing immutability, referential transparency, and higher-order functions. Strengths include equational reasoning, easier parallelization of pure code, and elegant data pipeline composition.
 
-Internal tensions include effect management (I/O, exceptions, state), performance costs of naïve immutable data structures, and steep learning curves for advanced type systems (higher-kinded types, GADTs, effect systems). Laziness, as in Haskell, enables powerful abstractions but introduces space leaks and unpredictable evaluation order for newcomers. Functional programming's resurgence came when immutability's concurrency benefits outweame its allocation costs in many application domains — aided by better runtimes and persistent data structures.
+Internal tensions include effect management (I/O, exceptions, state), performance costs of naïve immutable data structures, and steep learning curves for advanced type systems (higher-kinded types, GADTs, effect systems). Laziness, as in Haskell, enables powerful abstractions but introduces space leaks and unpredictable evaluation order for newcomers. Functional programming's resurgence came when immutability's concurrency benefits outweighed its allocation costs in many application domains — aided by better runtimes and persistent data structures.
 
 ### Logic and Declarative Programming
 
