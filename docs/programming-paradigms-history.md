@@ -77,6 +77,18 @@ Parallel to OO's commercial rise, the **ML family** (ML, Standard ML, OCaml) adv
 
 **Perl, Python, Ruby, and Tcl** prioritized programmer productivity through dynamic typing, rapid iteration, and glue-language roles between systems. They were multi-paradigm in practice: OO features added to imperative cores without ideological commitment to either. **JavaScript (1995)**, created in roughly ten days for browser scripting, would eventually become the world's most deployed language—a cautionary lesson in path dependency trumping paradigm purity.
 
+### III.E Multicore, Managed Runtimes, and the Ownership Turn (2000s–2020s)
+
+The mid-2000s multicore plateau exposed limits of shared-memory threading for mainstream developers. **C#**, **Java**, and **Scala** on the JVM explored generics, functional collections, and actor libraries (Akka) without abandoning OO roots. **F#** brought ML-style functional programming into the .NET ecosystem as a pragmatic hybrid.
+
+**Google's Go (2009)** stripped generics (initially) in favor of goroutines, channels, and fast compilation—betting that simplicity and deployment ergonomics would win infrastructure teams. **Mozilla's Rust (2010)** pursued memory safety without garbage collection through ownership, borrowing, and lifetimes—a paradigm-level response to decades of C/C++ security catastrophes.
+
+**Apple's Swift (2014)** and **JetBrains' Kotlin (2011)** modernized mobile and JVM ecosystems with safer defaults, protocol-oriented patterns, and functional conveniences while retaining OO familiarity. **TypeScript** added gradual static typing to JavaScript's chaotic multi-paradigm surface, demonstrating that *constraint layers* can be more impactful than paradigm replacement.
+
+**WebAssembly** decoupled language choice from browser deployment, enabling C++, Rust, and other paradigms to coexist at the edges of the web platform. **Data-oriented programming**—columnar formats, vectorized execution, dataframe libraries—revived array-language thinking from APL and FORTRAN without requiring programmers to abandon Python or R syntax.
+
+The 2020s **AI-assisted development** wave introduces a meta-paradigm shift: natural language specifications, repository-scale context, and generated multi-paradigm snippets blur the boundary between intent and implementation. Classical paradigm labels still matter for review, verification, and runtime behavior, but the *authoring* act increasingly spans paradigms in a single session.
+
 ---
 
 ## Section IV — Trade-offs, Comparative Tensions, and Design Invariants
